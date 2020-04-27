@@ -5,7 +5,7 @@ const studSchema=new mongoose.Schema({
     place:String,
     phone:Number,
     parentname:String,
-    parentPhone:String
+    parentPhone:Number
 });
 const studmodel=mongoose.model('studentss',studSchema);
 module.exports= {studmodel}
