@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 const coursSchema=new mongoose.Schema({
-    Studentid:String,
+    Studentid:Number,
     Coursename:String,
     fee:Number,
     Institute:String,
