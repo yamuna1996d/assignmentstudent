@@ -17,7 +17,7 @@ routers.post('/studreg', async (req, res) => {
     }
 });
 
-routers.post('/coursepdt', async (req, res) => {
+routers.post('/addcourse', async (req, res) => {
     try {
         var data = new cousemodel(req.body);
         var result = await data.save();
